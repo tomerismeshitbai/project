@@ -6,9 +6,9 @@ import {GenreComponent} from "./components/genre/genre.component";
 
 
 const routes: Routes = [
-  {path: '', redirectTo: '/books', pathMatch: 'full', component: HomeComponent},
-  {path: 'books/:id', component: BookListComponent},
-  {path: 'genres/:id', component: GenreComponent}
+  // {path: '', redirectTo: '/books', pathMatch: 'full', component: HomeComponent},
+  // {path: 'books/:id', component: BookListComponent},
+  // {path: 'genres/:id', component: GenreComponent}
 ];
 
 @NgModule({
