@@ -10,6 +10,8 @@ import { BookListComponent } from './components/book-list/book-list.component';
 import { BookFilterComponent } from './components/book-filter/book-filter.component';
 import { GenreComponent } from './components/genre/genre.component';
 import { RegisterComponent } from './components/register/register.component';
+import { BookDetailsComponent } from './components/book-details/book-details.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { RegisterComponent } from './components/register/register.component';
     BookListComponent,
     BookFilterComponent,
     GenreComponent,
-    RegisterComponent
+    RegisterComponent,
+    BookDetailsComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
