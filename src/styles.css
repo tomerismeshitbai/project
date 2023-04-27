@@ -3,6 +3,7 @@
   
   body {
     margin: 0;
+    
     /* background: linear-gradient(to bottom, #3e0a0a, #891515, #b80101); */
   }
 
@@ -22,14 +23,14 @@
   /* Top Bar */
   
   app-top-bar {
-    width: 100%;
-    height: 100px;
+    width: 98.1%;
+    height: 99.6px;
     background-color: #350c0c;
-    padding: 3px;
+    padding: 14px;
     display: flex;
-    /* flex-direction: row; */
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+   align-items: center;
   }
   
   app-top-bar h1 {

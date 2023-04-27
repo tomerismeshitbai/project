@@ -4,9 +4,9 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 86vh;
+	min-height: 83vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #550d0d, #b31c1c, #ff0000);
+    background: linear-gradient(to bottom, #3e0a0a, #891515, #b80101);
 }
 .main{
 	width: 350px;

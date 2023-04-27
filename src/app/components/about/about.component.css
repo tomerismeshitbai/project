@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
 body {
 background: linear-gradient(to bottom, #3e0a0a, #891515, #b80101);
 display: flex;
 align-items: center;
 justify-content: center;
-min-height: 90vh;
+height: 625px;
 }
+
 img{
 position: fixed;
 top: -320%;
@@ -16,12 +18,21 @@ border-radius: 20px;
 opacity:0.9;
 transition: 0.5s;
 }
-h1{
-transition: transform 2s;
-font-size: 60px;
-color: rgb(203, 75, 75);
+
+.details{
+margin-left: -800px;
+font-size: 16px;
+color: rgb(246, 233, 233);
 font-family: 'Big Shoulders Display', cursive;
 }
+
+.details2{
+    position: absolute;
+    padding-left: 950px;
+    color: rgb(246, 233, 233);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
 .card:hover > p{
 opacity:1;
 transform: scale(1.5);
@@ -67,9 +78,6 @@ background: white;
 width: 450px;
 height: 450px;
 position: fixed;
-/* top: 50%;
-left: 50%; */
-/* transform: translate(-50%, -50%); */
 }
 
 .card:hover{
