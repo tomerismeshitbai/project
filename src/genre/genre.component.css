@@ -1,0 +1,78 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #460202;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  #sci-fi {
+    background-color: #e0ffd7;
+  }
+  
+  #classics {
+    background-color: #e9e1c2;
+  }
+  
+  #romantic {
+    background-color: #ffd7f0;
+  }
+  
+  #adventure {
+    background-color: #d7f0ff;
+  }
+  /*background-color: #ffe1d7 розоватый*/
+  section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Image styles */
+  figure {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  figure img {
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  
